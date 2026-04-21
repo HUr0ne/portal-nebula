@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula Studio | Estratégia, Web e Experiências Digitais</title>
+    <meta name="description" content="Estúdio digital para marcas que precisam de presença online, produtos digitais e conteúdo com acabamento profissional.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#" aria-label="Nebula Studio">
+            <span class="brand-mark" aria-hidden="true">N</span>
+            <span>Nebula Studio</span>
+        </a>
+
+        <nav class="tabs" aria-label="Seções principais">
+            <button id="tab-blog" class="tab active" type="button" data-tab="blog" aria-controls="blog" aria-selected="true">Insights</button>
+            <button id="tab-shop" class="tab" type="button" data-tab="shop" aria-controls="shop" aria-selected="false">Produtos</button>
+            <button id="tab-servicos" class="tab" type="button" data-tab="servicos" aria-controls="servicos" aria-selected="false">Serviços</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">Estratégia digital com execução refinada</p>
+                <h1 id="hero-title">Sites, conteúdo e produtos digitais para marcas que querem parecer prontas.</h1>
+                <p class="hero-text">Criamos experiências claras, rápidas e memoráveis: da primeira impressão ao botão de compra.</p>
+                <div class="hero-actions">
+                    <a class="button primary" href="#servicos">Ver serviços</a>
+                    <a class="button secondary" href="#shop">Explorar produtos</a>
+                </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="metric-card metric-main">
+                    <span class="metric-label">Conversão</span>
+                    <strong>+38%</strong>
+                    <span>após redesenho da jornada</span>
+                </div>
+                <div class="metric-card metric-small">
+                    <span class="metric-label">Entrega</span>
+                    <strong>21 dias</strong>
+                    <span>para lançar a primeira versão</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-shell" aria-live="polite">
+            <div id="blog" class="tab-content active" role="tabpanel" aria-labelledby="tab-blog">
+                <div class="section-heading">
+                    <p class="eyebrow">Insights</p>
+                    <h2>Ideias práticas para crescer com mais clareza</h2>
+                </div>
+
+                <div class="content-grid">
+                    <article class="card feature-card">
+                        <span class="tag">Estratégia</span>
+                        <h3>Como transformar um site institucional em canal de vendas</h3>
+                        <p>Uma boa página guia o visitante por uma decisão. Posicionamento, prova social e chamadas certas fazem o design trabalhar pelo negócio.</p>
+                    </article>
+                    <article class="card">
+                        <span class="tag">UX</span>
+                        <h3>Microinterações que deixam a experiência mais confiável</h3>
+                        <p>Estados de foco, feedback visual e fluxos curtos reduzem dúvida e tornam ações importantes mais seguras.</p>
+                    </article>
+                    <article class="card">
+                        <span class="tag">Performance</span>
+                        <h3>O que revisar antes de publicar uma landing page</h3>
+                        <p>Tempo de carregamento, hierarquia mobile e textos de botão ainda são alguns dos ganhos mais rápidos antes do lançamento.</p>
+                    </article>
+                </div>
+            </div>
+
+            <div id="shop" class="tab-content" role="tabpanel" aria-labelledby="tab-shop" hidden>
+                <div class="section-heading">
+                    <p class="eyebrow">Produtos</p>
+                    <h2>Pacotes digitais prontos para acelerar seu próximo lançamento</h2>
+                </div>
+
+                <div class="content-grid">
+                    <article class="card product-card">
+                        <span class="tag">Template</span>
+                        <h3>Landing Page Pro</h3>
+                        <p>Estrutura completa para campanhas, captação de leads e validação de ofertas.</p>
+                        <div class="price">R$ 349</div>
+                        <button class="button primary" type="button">Comprar</button>
+                    </article>
+                    <article class="card product-card">
+                        <span class="tag">Kit</span>
+                        <h3>Brand Starter</h3>
+                        <p>Direção visual, componentes básicos e guia rápido para manter consistência.</p>
+                        <div class="price">R$ 590</div>
+                        <button class="button primary" type="button">Comprar</button>
+                    </article>
+                    <article class="card product-card">
+                        <span class="tag">Conteúdo</span>
+                        <h3>Editorial Sprint</h3>
+                        <p>Calendário, pautas e modelos para publicar com ritmo e intenção.</p>
+                        <div class="price">R$ 780</div>
+                        <button class="button primary" type="button">Comprar</button>
+                    </article>
+                </div>
+            </div>
+
+            <div id="servicos" class="tab-content" role="tabpanel" aria-labelledby="tab-servicos" hidden>
+                <div class="section-heading">
+                    <p class="eyebrow">Serviços</p>
+                    <h2>Do diagnóstico ao lançamento, com foco no que move o negócio</h2>
+                </div>
+
+                <div class="content-grid">
+                    <article class="card service-card">
+                        <span class="number">01</span>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Sites responsivos, rápidos e fáceis de evoluir, com estrutura pensada para conversão.</p>
+                    </article>
+                    <article class="card service-card">
+                        <span class="number">02</span>
+                        <h3>Consultoria Digital</h3>
+                        <p>Mapeamento de prioridades, revisão de experiência e plano de ação para melhorar resultados.</p>
+                    </article>
+                    <article class="card service-card">
+                        <span class="number">03</span>
+                        <h3>Design de Produto</h3>
+                        <p>Prototipação, fluxos de usuário e interfaces para produtos digitais mais claros e úteis.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
